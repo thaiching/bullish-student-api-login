@@ -1,0 +1,23 @@
+{
+  "testFiles": "**/*.feature",
+  "nodeVersion": "system",
+  "chromeWebSecurity": false,
+  "requestTimeout": 5000,
+  "responseTimeout": 5000,
+  "defaultCommandTimeout": 5000,
+  "env": {
+    "API_BASE_URL": "http://localhost:9080/studentmgmt",
+    "LOGIN_BASE_URL": "http://the-internet.herokuapp.com/login"
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quite": true,
+          "overwrite": false,
+          "html": true,
+          "json": true
+      }
+  }
+}
