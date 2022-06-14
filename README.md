@@ -1,7 +1,7 @@
 ### Student Enrollment Restful APIs (GET, POST, PUT  & DELETE)
 
 ### How to install the package
-- Git clone the project
+- Git clone the project.
 - Go to the project root folder `/bullish-api-login` and run command ```npm install```
 
 ### Data setup before running the tests
