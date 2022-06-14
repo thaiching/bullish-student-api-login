@@ -2,12 +2,12 @@
 
 ### How to install the package
 - Git clone the project.
-- Go to the project root folder `/bullish-api-login` and run command ```npm install```
+- Go to the project root folder `/bullish-student-api-login` and run command ```npm install```
 
 ### Data setup before running the tests
 Please run the following shell scripts to populate some student records into database before running the api tests
 
-`/bullish-api-login/cypress/script/./data.sh`
+`/bullish-student-api-login/cypress/script/./data.sh`
 
 ### How to run the tests
 
@@ -18,7 +18,7 @@ To run the tests in Headless mode (without report generation), run the command `
 To run the tests using Cypress `Test Runner`, run the command ```npm run cy:open``` from the project root folder and click on the feature file to run the tests
 
 ### Reporting
-Test reports can be found under `/bullish-api-login/cypress/reports/mochareports/report.html`
+Test reports can be found under `/bullish-student-api-login/cypress/reports/mochareports/report.html`
 
 ### API Bugs
 `POST METHOD`
